@@ -26,8 +26,6 @@ public class Counter {
 
     /**
     * Default constructor creates a new Counter object with default settings.
-    *
-    * @return           new Counter object
     */
     public Counter() {}
     
@@ -36,7 +34,6 @@ public class Counter {
     * The counter should roll over to zero when it reaches the maximum.
     *
     * @param maximum    the maximum counter value
-    * @return           new Counter object
     */
     public Counter(int maximum) {
         this.maximum = maximum;
