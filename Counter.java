@@ -1,5 +1,5 @@
 /**
-* Counter class implements a counter that can be incremented, reset, and restored (unreset)
+* Implements a counter that can be incremented, reset, and restored (unreset)
 *
 * @author Ben Gladstone
 * @version 0.0.1
