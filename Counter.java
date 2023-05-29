@@ -16,7 +16,6 @@ public class Counter {
     
     /**
     * Returns the counter's value as a String.
-    *
     * @return           counter's current value as String
     */
     @Override
@@ -32,7 +31,6 @@ public class Counter {
     /**
     * Counter constructor to create a Counter with a certain maximum allowed value.
     * The counter should roll over to zero when it reaches the maximum.
-    *
     * @param maximum    the maximum counter value
     */
     public Counter(int maximum) {
@@ -41,7 +39,6 @@ public class Counter {
     
     /**
     * Sets the maximum allowed value of the counter.
-    *
     * @param maximum    the maximum counter value
     */
     public void setMaximumCount(int maximum) {
@@ -50,7 +47,6 @@ public class Counter {
     
     /**
     * Returns the maximum allowed value of the counter.
-    *
     * @return           the maximum counter value
     */
     public int getMaximumCount() {
@@ -59,7 +55,6 @@ public class Counter {
     
     /**
     * Returns the current value of the counter.
-    *
     * @return           the current value of the counter
     */
     public int getCount() {

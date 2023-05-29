@@ -1,7 +1,17 @@
+/**
+* Tests Counter.java
+*
+* @author Ben Gladstone
+* @version 0.0.1
+*/
 public class CounterTester {
 	private static int failedTests = 0;
 	private static int totalTests = 0;
 	
+    /**
+    * Runs a series of tests on the class Counter
+    * @param args   command line arguments
+    */
 	public static void main(String[] args) {
 		// Test default constructor
 		Counter c = new Counter();
@@ -58,6 +68,9 @@ public class CounterTester {
 		reportResults();
 	}
 	
+    /**
+    * Prints the results of the tests
+    */
 	private static void reportResults() {
 		if (failedTests == 0) {
 			System.out.printf("Passed all %d tests!\n", totalTests);
@@ -66,6 +79,12 @@ public class CounterTester {
 		}
 	}
 	
+    /**
+    * Run a test of the statement. If statement is true, the test passes.
+    * If statement is false, print message to the user.
+    * @param statement  the logical statement being tested
+    * @param message    error message if the test fails
+    */
 	private static void test(boolean statement, String message) {
 		totalTests++;
 		if (!statement) {
